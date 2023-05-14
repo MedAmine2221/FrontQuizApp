@@ -1,0 +1,25 @@
+.like-button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .like-button:hover {
+    background-color: lightblue;
+  }
+  
+  .like-button-hover {
+    position: absolute;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+  }
+  
+  .like-button:hover .like-button-hover {
+    display: block;
+  }
